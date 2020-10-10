@@ -1,1 +1,31 @@
-https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css
+#movies img, #movie img {
+  width: 100%;
+}
+
+#moviestwo img, #moviestwo img {
+  width: 100%;
+}
+
+.well {
+  padding-bottom: 2rem;
+}
+
+@media(min-width: 960px;){
+
+  #movies .col-md-3 .well {
+    height: 400px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240;
+  }
+
+      #moviestwo .col-md-3 .well {
+        height: 400px;
+      }
+
+      #moviestwo .col-md-3 img {
+        height: 240;
+      }
+
+}
